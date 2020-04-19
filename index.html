@@ -125,22 +125,6 @@ Hugo로 구축했고 테마는 hugo-paper 기반으로 조금씩 손보고 있�
   <span>&middot;</span>
   <a href="https://github.com/dolsup" class="link">GitHub</a>
 </footer>
-<script src="https://dolsup.github.io/js/instantclick.min.js" data-no-instant></script>
-<script data-no-instant>InstantClick.init();</script>
-<script src="https://dolsup.github.io/js/highlight.min.js" data-no-instant></script>
-<script data-no-instant>
-  addMenuListener();
-  InstantClick.on('change', function() {
-    addMenuListener();
-  });
-  function addMenuListener() {
-    var $toggle = document.querySelector('.menu-toggle');
-    var $body = document.querySelector('body');
-    $toggle.addEventListener('click', function() {
-      $body.classList.toggle('noscroll');
-    }, false);
-  }
-</script>
 </body>
 </html>
 
