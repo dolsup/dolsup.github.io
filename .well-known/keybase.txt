@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/dolsup
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://dolsup.github.io
+  * I am dolsup (https://keybase.io/dolsup) on keybase.
+  * I have a public key with fingerprint C64D 4AD4 E5C1 F385 04B8  5863 4F30 EE2F BF95 22C2
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120dc59cceab46d1be49627ab1f4d9b44b2280e6e6ab8f22d994ad876654c5aa80c0a",
+      "fingerprint": "c64d4ad4e5c1f38504b858634f30ee2fbf9522c2",
+      "host": "keybase.io",
+      "key_id": "4f30ee2fbf9522c2",
+      "kid": "0101b3a8996bf22b97fbbef940c90b1f1fbf726e36a3edff8a33dc2097037e5e29d30a",
+      "uid": "12dee25563a2f0bef13de6fa8e2ab119",
+      "username": "dolsup"
+    },
+    "service": {
+      "hostname": "dolsup.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1587919899,
+  "expire_in": 157680000,
+  "prev": "e4f96e1661a34edab50051fc4ccc7bfe027846a3d81fc56c108b5d37ba06cefe",
+  "seqno": 32,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMNvAnicbVJtUFRVGN41BF1SN8QRBJvmSkpFcL8/FkswB0lQcwwpWNjuuffc3cvS
+3nU/cMWMJivSURpRG0UKx4CcCeRHDdQMTQGiKJKwmzBNFtMgtNaCUmJQ4HSW8kcz
+nT9nzvs+z/M+zzvnwpKHdAb9dnwi7asTWKe+t6PGqytuaE/YhwFN3ouZ9mF2OH/B
+Uhm6PRa7KmMmDCdIXJYYQZKgCGhWJgCkBZbkREAotCwAmgYkyeOQhawIeIUkZUGg
+RZnnWJahJUYUeVzCRSwFU1SHFbqcLtXhQbISS8sIRkNGIhSKZ3Aa8AzPUrRC4RCS
+ClAEhiQlEhFtmjvMQOaA6IapqoZq6GGZt/c/+Ae+cQJQIi8ILECugMApAEBFoHFJ
+wJF3AlE4koUUK1JQVhRepChZInGBwykOMpAUZGret3dejiBlNIZhWEokFRwJEZQM
+WUXkIYk2QQhhoBu6HOKrEKFlrdTtdWL7UzBUK1MlGF5rOMd/+qlW1WPzgn8SOV2a
+R5O0UtS1eTxOtynM9ux1huF7ILD8K2QBqkNGm0SMMuhyq5oDMxEIKXnUsDLB8JxA
+CCh1CgZ9TtUFLWoYwXAsj6MTngPLkCSkFYGFBMsSIkVDWQQMjjOEItGSJHFAgTjJ
+8TRajcyjIsNKBM4DRqY4IOKsBBWIhaPtdmiYiSKRT9GKNN2q1SF6vC6I7e/sMEfo
+9AZd5MIF4S+mMyw2Pvh4ewaXzS4rKjZOuUa9mdJfZhN1vn7Aens6c/rz74fXhhKd
+kZnGGxkD6dVTUQs21mXF1maZsF9mXxlyFby9IiUtzXCqpLoGnJ7x57UWG+zdf9Zu
+bqk//7tt7Mu5VXPdDe+f1YJPbkmP33bmYmhnsKet3e4+G7LEPfZyf2VCzbWMfGOc
+/3D5QP7rVcbfcumS7orGmqTZ+lZ/7I6rvXrumTyy8E3fr01bFn9zp3XpmujQnH9V
+52Re/R9LNwTLEyp+Kg0lfvexbubTj86Yrxi1XqxOuj+zzVdb0/dBwI0nbkwdTvyh
+9eHxyiXetRbf5WBR4aNFHx6NiVs919a0+9SO0CJ9Us6hd0eeMO+7pp+4EBedMD4V
+bW5ObD63fSy2LcufZX8h3ZabPLr1eNORvsuRRzanflvwOHsx+/j9wMrk6EMHrwTf
+wmM3te9subMu5e7yc40vtVTFRHiff2phIzO+8pMvlm84OTZXcQ9f92POpimdNsSk
+3ewcnO0/KhsPjiTdyuhgps3agREq9+lFz+b7AsemcrLjC4e71kR0BQbIYFWoQH9Y
+hQZdQ3+5v7j1+oG2OrvulnPXiusvTj4ymjmZNRaAyVdNfT9nbz32TtSJS8/FR1X3
+eJ39X7fbbjQ3waHTBeD2SV3gZnF85aU3elpWT/hHVZ/3vdfamjPv2u4F1+9a39UQ
+MxGYHOyw1pZ8Vmjt+xvPxsmP
+=BddO
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dolsup
+
+==================================================================
