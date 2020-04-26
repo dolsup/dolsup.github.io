@@ -245,10 +245,14 @@ pre, code {
 }
 /* Post
 ------------------------------ */
+.post-view .post-header {
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #ddd;
+}
 .post-meta {
   margin-top: 8px;
-  color: rgba(0, 0, 0, .4);
-  font-size: 16px;
+  font-size: 1em;
   letter-spacing: .5px;
 }
 /* First entry */
@@ -443,25 +447,27 @@ pre, code {
 .post-content iframe {
   max-width: 100%;
 }
-.post-view .post-tags {
-  margin-bottom: 30px;
+.post-tags {
+  margin: 0.2em 0;
 }
 .post-tags li {
   display: inline-block;
 }
 .post-tags a {
-  display: block;
-  padding: 6px 16px;
-  color: rgba(0, 0, 0, .6);
+  color: rgba(0, 0, 0, 0.9);
   font-size: 16px;
-  background: #f5f5f5;
+  padding: 1px 3px;
   border-radius: 3px;
+}
+.post-tags a::before {
+  content: "#";
 }
 .post-tags li + li {
   margin-left: 3px;
 }
 .post-tags a:hover {
-  background: #eee;
+  background: #f4f4f4;
+  text-decoration: underline;
 }
 @media (max-width: 767px) {
   .post-content blockquote {
