@@ -6,10 +6,25 @@
     <description>Recent content on 돌과 숲</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Mon, 14 Oct 2019 22:52:32 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2020 16:43:07 +0900</lastBuildDate>
     
 	<atom:link href="https://dolsup.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About</title>
+      <link>https://dolsup.github.io/about/</link>
+      <pubDate>Sun, 26 Apr 2020 16:43:07 +0900</pubDate>
+      
+      <guid>https://dolsup.github.io/about/</guid>
+      <description> About Me 먹고 마시고 읽고 만드는 것을 좋아합니다.
+[TODO]
+My Distributed Digital Ego  Email — 1890mah@gmail.com Github — @dolsup Keybase — @dolsup Facebook — 최지원  History  2015.10 – now Ecube Labs 소프트웨어 엔지니어
+ 2013.3 – 2016.1 한국디지털미디어고등학교 웹프로그래밍과 12기 졸업
+ 2014.7 – 2014.12 Software Maestro 5기 멘티
+ 2012 한국정보올림피아드 중등부 경시부문 지역본선 금상 및 본선 장려상
+  </description>
+    </item>
     
     <item>
       <title>溶けない名前 - 幽霊少女は八月を殺す</title>
