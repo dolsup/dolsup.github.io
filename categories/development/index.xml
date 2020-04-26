@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Development on 돌과 숲</title>
+    <link>https://dolsup.github.io/categories/development/</link>
+    <description>Recent content in Development on 돌과 숲</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-KR</language>
+    <lastBuildDate>Sun, 26 Apr 2020 23:26:10 +0900</lastBuildDate>
+    
+	<atom:link href="https://dolsup.github.io/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sequel Pro의 크래시 문제 대처</title>
+      <link>https://dolsup.github.io/posts/how-to-deal-with-sequel-pro-crash/</link>
+      <pubDate>Sun, 26 Apr 2020 23:26:10 +0900</pubDate>
+      
+      <guid>https://dolsup.github.io/posts/how-to-deal-with-sequel-pro-crash/</guid>
+      <description>Sequel Pro는 macOS에서 사용할 수 있는 아주 편리하고 강력한 오픈소스 MySQL, MariaDB 클라이언트 GUI 툴입니다. 저도 이 툴을 사용한지가 상당히 오래 되었습니다.
+그러나 사실 Sequel Pro는 현재 몇 가지 문제를 안고 있습니다. 모하비 업데이트 이후 탭 하나를 닫으면 앱이 크래시되면서 모든 창이 종료되는 이슈가 있습니다. 이 경우 Query Editor 탭에서 작성중이던 것은 모두 사라집니다.
+마지막 릴리즈는 놀랍게도 2016년 4월에 발표된 1.1.2 버전이고, 공식 릴리즈에서 이 문제는 해결될 기미가 보이지 않습니다. 다음 릴리즈 일정에 대해 묻는 이슈에서 사람들은 공식 릴리즈는 아니지만 테스트 빌드는 정상 작동하니 대안으로 이것을 사용하라고 합니다.</description>
+    </item>
+    
+  </channel>
+</rss>
