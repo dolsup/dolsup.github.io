@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <title>Redis GUI 클라이언트, Medis 설치하기 - 돌과 숲</title>
+  
+  <meta name="description" content="Image from getmedis.com TL;DR for macOS 많이 바쁘시죠? git clone https://github.com/luin/medis.git cd medis npm i npm run pack # webpack analyzer가 뜨고 난 후 프로세스를 종료하세요 (^C) node bin/pack.js # No identity found for signing 에러는 무시하세요 cd dist/out/Medis-mas-x64/ open . #">
+  <meta name="author" content="">
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49954888-5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-49954888-5');
+  </script>
+  <script async src="https://dolsup.github.io/scripts/prism.js"></script>
+  
+  <link href="https://dolsup.github.io/css/font.css" rel="stylesheet">
+  <link href="https://dolsup.github.io/css/atom-one-dark.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i" rel="stylesheet">
+  <link href="https://dolsup.github.io/css/style.css" rel="stylesheet">
+  <link href="https://dolsup.github.io/styles/post.css" rel="stylesheet">
+  <link href="https://dolsup.github.io/styles/prism.css" rel="stylesheet">
+  
+  <link rel="apple-touch-icon" href="https://dolsup.github.io/img/apple-touch-icon.png">
+  <link rel="icon" href="https://dolsup.github.io/img/favicon.ico">
+  
+  <meta name="generator" content="Hugo 0.53" />
+  
+  <link rel="alternate" type="application/atom+xml" href="https://dolsup.github.io/index.xml" title="돌과 숲">
+  
+</head>
+
+<body class="single">
+  <header class="header">
+    
+    <p class="title"><a href="https://dolsup.github.io/">돌과 숲</a></p>
+    
+    <input class="menu-toggle" type="checkbox"/>
+    <nav class="menu">
+      <ul>
+        
+        
+        
+        <a href="/about">
+          <li class="">
+              About
+          </li>
+        </a>
+        <a href="/posts">
+          <li class="">
+            모든 포스트
+          </li>
+        </a>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+
+<article class="post post-view">
+  <header class="post-header">
+    <h1 class="post-title">Redis GUI 클라이언트, Medis 설치하기</h1>
+    <p class="post-meta">2020.5.2</p>
+    
+    <ul class="post-tags">
+      
+      <li><a href="https://dolsup.github.io/tags/redis/">Redis</a></li>
+      
+      <li><a href="https://dolsup.github.io/tags/medis/">Medis</a></li>
+      
+      <li><a href="https://dolsup.github.io/tags/%EB%8F%84%EA%B5%AC/">도구</a></li>
+      
+      <li><a href="https://dolsup.github.io/tags/macos/">macOS</a></li>
+      
+      <li><a href="https://dolsup.github.io/tags/tip/">Tip</a></li>
+      
+    </ul>
+    
+  </header>
+  <div class="post-content">
+
+<p><center>
+<figure>
+    <img src="/images/medis-window-screenshot.png"
+         alt="a screen capture of Medis app" width="768"/> <figcaption>
+            <p>Image from <a href="http://getmedis.com">getmedis.com</a></p>
+        </figcaption>
+</figure>
+
+</center></p>
+
+<h2 id="tl-dr-for-macos">TL;DR for macOS</h2>
+
+<p>많이 바쁘시죠?</p>
+
+<pre><code class="language-bash">git clone https://github.com/luin/medis.git
+cd medis
+npm i
+npm run pack
+# webpack analyzer가 뜨고 난 후 프로세스를 종료하세요 (^C)
+
+node bin/pack.js
+# No identity found for signing 에러는 무시하세요
+cd dist/out/Medis-mas-x64/
+open .
+# Finder가 열리고 Medis.app이 보일 겝니다.
+</code></pre>
+
+<h2 id="medis를-소개합니다">Medis를 소개합니다</h2>
+
+<p>간단하게 값 조회하고 편집하려고 Redis cli 클라이언트와 Redis command cheat sheet를 함께 띄워두고 떠듬떠듬 작업하다보니 더는 안 되겠어서 괜찮은 오픈소스 GUI 툴을 찾아보았습니다. Medis를 발견하고 사용해 봤는데 역시 그래픽이란 혁명적이에요.</p>
+
+<p><a href="http://getmedis.com/">Medis</a>는 Node.js, React, Electron으로 만들어진 오픈소스 Redis 클라이언트 어플리케이션입니다. 키와 config의 조회 및 수정, SSH 터널링, 커맨드 입력을 위한 터미널 등 기본적인 기능과 많은 고급 기능들을 지원합니다.</p>
+
+<p>Windows용 클라이언트의 경우, exe 파일이 배포되고 있습니다. 👉 <a href="https://github.com/classfellow/medis/releases/tag/win">Medis for Windows</a></p>
+
+<p>그러나 <strong>macOS용 클라이언트는 직접 빌드해서 사용해야 합니다</strong>. Mac App Store에서 $4.99에 <a href="https://itunes.apple.com/app/medis-gui-for-redis/id1063631769">유료 버전</a>이 판매되고 있지만 직접 빌드한 것과 기능상의 차이는 없습니다. 개발자를 후원하고 싶으신 분은 스토어에서 구매해서 편하게 설치할 수 있습니다.</p>
+
+<p>저는 지난 포스트인 <a href="/posts/create-mac-app-with-platypus/">Platypus로 CLI 앱을 Mac 네이티브 앱으로 번들링하기
+</a>에서 소개한 방법으로 직접 빌드해서 사용했었는데, 다시 해보니 <a href="https://www.npmjs.com/package/electron-packager">electron-packager</a>를 사용한 더 간단한 방법이 있어서 그 가이드를 포스트로 남겨봅니다.</p>
+
+<h2 id="macos에서-medis-빌드해서-설치하기">macOS에서 Medis 빌드해서 설치하기</h2>
+
+<h3 id="최신-소스코드-얻기">최신 소스코드 얻기</h3>
+
+<p>GitHub의 <a href="https://github.com/luin/medis">luin/medis</a> 레포지토리 <code>master</code> 브랜치의 <code>README.md</code>에서는 릴리즈 페이지에 있는 소스코드로 빌드하라고 되어있습니다. 하지만 이대로 따르면 <code>node-gyp</code> 관련 에러로 실패합니다. 이 문제는 굉장히 다양한 원인으로 발생하며 해결하기 번거롭습니다. 마지막 공식 릴리즈는 <code>v0.6.1</code>인데 master 형상에 비해 굉장히 outdated 상태입니다. 이것은 사용하지 맙시다.</p>
+
+<p>Git Tag의 메이저 버전은 2019년에 이미 1로 bump 되었습니다. 그러니 <a href="https://github.com/luin/medis/tags">Tags</a>에서 소스코드를 받거나 그냥 master를 그대로 clone 합시다.</p>
+
+<h3 id="동작하는-최신-설치-가이드">동작하는 최신 설치 가이드</h3>
+
+<p><a href="https://github.com/luin/medis/issues/172">luin/medis#172</a> 이슈에서 <code>1.x</code> 버전 코드를 패키징하는 가이드를 제시하고 있습니다.</p>
+
+<ol>
+<li><code>$ npm install</code></li>
+<li><code>$ npm run pack</code><br>
+진행 중에 webpack analyzer가 브라우저 탭으로 뜨면 프로세스를 종료하세요. (<code>Ctrl+C</code>)</li>
+<li><code>$ node bin/pack.js</code><br>
+&ldquo;<code>Unhandled rejection Error: No identity found for signing.</code>&ldquo;과 같은 에러는 무시하셔도 됩니다. 배포하지 않고 혼자 사용할 것이기 때문에 Signing은 필요 없습니다.</li>
+<li><code>dist/out/Medis-mas-x64/Medis.app</code>이 만들어집니다. 곧바로 실행 가능합니다.</li>
+</ol>
+</div>
+  <footer class="post-footer">
+    <div id="comments-container">
+    <script src="https://utteranc.es/client.js"
+    data-repo="dolsup/dolsup.github.io"
+    data-issue-term="title"
+    label="utterance"
+    data-theme="github-light"
+    crossorigin="anonymous"
+    async>
+  </script>
+</div>
+
+  </footer>
+</article>
+</main>
+<footer class="footer">
+  <span>&copy; 2020 돌과 숲</span>
+  <span>&middot;</span>
+  <a href="https://github.com/dolsup" class="link">GitHub</a>
+</footer>
+</body>
+</html>
+
