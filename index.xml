@@ -6,10 +6,19 @@
     <description>Recent content on 돌과 숲</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Sun, 26 Apr 2020 23:26:10 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2020 13:45:13 +0900</lastBuildDate>
     
 	<atom:link href="https://dolsup.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Platypus로 CLI 앱을 Mac 네이티브 앱으로 번들링하기</title>
+      <link>https://dolsup.github.io/posts/create-mac-app-with-platypus/</link>
+      <pubDate>Sat, 02 May 2020 13:45:13 +0900</pubDate>
+      
+      <guid>https://dolsup.github.io/posts/create-mac-app-with-platypus/</guid>
+      <description>Platypus.png by sveinbjorn.org/platypus Platypus는 일반적인 Shell script를 포함하여 Python, Node.js 프로그램 등 커맨드라인 스크립트를 네이티브 Mac 어플리케이션으로 만들 수 있는 오픈소스 툴입니</description>
+    </item>
     
     <item>
       <title>Sequel Pro의 크래시 문제 대처</title>
@@ -17,9 +26,7 @@
       <pubDate>Sun, 26 Apr 2020 23:26:10 +0900</pubDate>
       
       <guid>https://dolsup.github.io/posts/how-to-deal-with-sequel-pro-crash/</guid>
-      <description>Sequel Pro는 macOS에서 사용할 수 있는 아주 편리하고 강력한 오픈소스 MySQL, MariaDB 클라이언트 GUI 툴입니다. 저도 이 툴을 사용한지가 상당히 오래 되었습니다.
-그러나 사실 Sequel Pro는 현재 몇 가지 문제를 안고 있습니다. 모하비 업데이트 이후 탭 하나를 닫으면 앱이 크래시되면서 모든 창이 종료되는 이슈가 있습니다. 이 경우 Query Editor 탭에서 작성중이던 것은 모두 사라집니다.
-마지막 릴리즈는 놀랍게도 2016년 4월에 발표된 1.1.2 버전이고, 공식 릴리즈에서 이 문제는 해결될 기미가 보이지 않습니다. 다음 릴리즈 일정에 대해 묻는 이슈에서 사람들은 공식 릴리즈는 아니지만 테스트 빌드는 정상 작동하니 대안으로 이것을 사용하라고 합니다.</description>
+      <description>Sequel Pro는 macOS에서 사용할 수 있는 아주 편리하고 강력한 오픈소스 MySQL, MariaDB 클라이언트 GUI 툴입니다. 저도 이 툴을 사용한지가 상당히 오래 되었습니다. 그러나 사실</description>
     </item>
     
     <item>
@@ -28,13 +35,7 @@
       <pubDate>Sun, 26 Apr 2020 16:43:07 +0900</pubDate>
       
       <guid>https://dolsup.github.io/about/</guid>
-      <description> About Me 먹고 마시고 읽고 만드는 것을 좋아합니다.
-[TODO]
-My Distributed Digital Ego  Email — 1890mah@gmail.com Github — @dolsup Keybase — @dolsup Facebook — 최지원  History  2015.10 – now Ecube Labs 소프트웨어 엔지니어
- 2013.3 – 2016.1 한국디지털미디어고등학교 웹프로그래밍과 12기 졸업
- 2014.7 – 2014.12 Software Maestro 5기 멘티
- 2012 한국정보올림피아드 중등부 경시부문 지역본선 금상 및 본선 장려상
-  </description>
+      <description>About Me 먹고 마시고 읽고 만드는 것을 좋아합니다. [TODO] My Distributed Digital Ego Email — 1890mah@gmail.com Github — @dolsup Keybase — @dolsup Facebook — 최지원 History 2015.10 – now Ecube Labs 소프트웨어 엔지니어 2013.3 – 2016.1 한국디지털미디어고등학교 웹</description>
     </item>
     
     <item>
@@ -43,22 +44,7 @@ My Distributed Digital Ego  Email — 1890mah@gmail.com Github — @dolsup Keyba
       <pubDate>Mon, 14 Oct 2019 22:52:32 +0900</pubDate>
       
       <guid>https://dolsup.github.io/posts/yurei-shoujo/</guid>
-      <description>溶けない名前(토케나이나마에, 녹지않는 이름)은 여느 일본 밴드처럼 앨범아트에 교복 소녀가 그려져 있고 여성 보컬이 안 들리는 가사를 중얼거리는 동안 조악하게 녹음된 기타가 좡좡좡 하는 일본 슈게이징 밴드입니다. 너무 좋습니다.
-애플 뮤직에서 들을 수 있습니다!
-溶けない名前 - 幽霊少女は八月を殺す  「八月を殺す」と呟く
-彼女の去年の思い出
-太陽が眩し過ぎて
-ブランコが踊っていた
-&amp;ldquo;8월을 죽인다&amp;rdquo;고 중얼거려
-그녀의 작년의 추억
-태앙이 너무 눈부셔서
-그네가 춤추고 있었어
-「わたしが幽霊だったら？」
-バカなことを言うね
-今度は数百年後の君に会いたいな
-&amp;ldquo;내가 유령이라면?&amp;rdquo;
-바보같은 말을 하네
-이번에는 수백 년 후의 너를 만나고 싶네</description>
+      <description>溶けない名前(토케나이나마에, 녹지않는 이름)은 여느 일본 밴드처럼 앨범아트에 교복 소녀가 그려져 있고 여성 보컬이 안 들리는 가사를 중얼거리는 동안 조악하게 녹</description>
     </item>
     
     <item>
@@ -67,7 +53,7 @@ My Distributed Digital Ego  Email — 1890mah@gmail.com Github — @dolsup Keyba
       <pubDate>Wed, 09 Oct 2019 21:17:12 +0900</pubDate>
       
       <guid>https://dolsup.github.io/posts/just-start/</guid>
-      <description>오전 1:04 나: 공개적으로 뭔가 작업을 하려고 할 때 오전 1:04 나: 욕먹을 걱정을 먼저 한다 오전 1:05 친구A: 그냥 하고 욕 먹으셈 오전 1:05 나: 오 좋은 생각이야 오전 1:05 나: 광역 어그로 끌어보고싶다 오전 1:05 친구A: 어차피 먹을 욕 오전 9:04 친구B: 욕먹는게 오전 9:04 친구B: 아무도 모르는 사람인 것보다 낫다  그냥 뭐라도 해야 한다. 그런 마음으로, 글감 목록을 작성하다가 현타가 와서 그냥 글을 써 본다. 최근 약간의 의욕을 얻어서 또 이런저런 일을 벌이고 있는데 그 의지를 잃지 않지 위한 다짐이기도 하다.</description>
+      <description>오전 1:04 나: 공개적으로 뭔가 작업을 하려고 할 때 오전 1:04 나: 욕먹을 걱정을 먼저 한다 오전 1:05 친구A: 그냥 하고 욕 먹으셈 오전 1:05 나: 오 좋은 생각이야 오전 1:05 나: 광역 어</description>
     </item>
     
     <item>
@@ -76,9 +62,7 @@ My Distributed Digital Ego  Email — 1890mah@gmail.com Github — @dolsup Keyba
       <pubDate>Sun, 06 Jan 2019 16:41:32 +0900</pubDate>
       
       <guid>https://dolsup.github.io/posts/initial-commit/</guid>
-      <description>블로그 시작합니다. 주로 TIL이나 소프트웨어 개발 관련 이야기를 할 예정입니다. 글도 계속 쓰고 여러가지 기능도 조금씩 추가할 예정입니다. 일단 만들어 그리고 부숴
-Hugo로 구축했고 테마는 hugo-paper 기반으로 조금씩 손보고 있습니다.
-잘 부탁드립니다.</description>
+      <description>블로그 시작합니다. 주로 TIL이나 소프트웨어 개발 관련 이야기를 할 예정입니다. 글도 계속 쓰고 여러가지 기능도 조금씩 추가할 예정입니다. 일단 만들어 그리고 부</description>
     </item>
     
   </channel>

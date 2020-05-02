@@ -6,17 +6,35 @@
     <description>Recent content in Tags on 돌과 숲</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Sun, 26 Apr 2020 23:26:10 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2020 13:45:13 +0900</lastBuildDate>
     
 	<atom:link href="https://dolsup.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Command Line Interface</title>
+      <link>https://dolsup.github.io/tags/command-line-interface/</link>
+      <pubDate>Sat, 02 May 2020 13:45:13 +0900</pubDate>
+      
+      <guid>https://dolsup.github.io/tags/command-line-interface/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Macos</title>
       <link>https://dolsup.github.io/tags/macos/</link>
-      <pubDate>Sun, 26 Apr 2020 23:26:10 +0900</pubDate>
+      <pubDate>Sat, 02 May 2020 13:45:13 +0900</pubDate>
       
       <guid>https://dolsup.github.io/tags/macos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Platypus</title>
+      <link>https://dolsup.github.io/tags/platypus/</link>
+      <pubDate>Sat, 02 May 2020 13:45:13 +0900</pubDate>
+      
+      <guid>https://dolsup.github.io/tags/platypus/</guid>
       <description></description>
     </item>
     
@@ -32,7 +50,7 @@
     <item>
       <title>Tip</title>
       <link>https://dolsup.github.io/tags/tip/</link>
-      <pubDate>Sun, 26 Apr 2020 23:26:10 +0900</pubDate>
+      <pubDate>Sat, 02 May 2020 13:45:13 +0900</pubDate>
       
       <guid>https://dolsup.github.io/tags/tip/</guid>
       <description></description>
@@ -41,7 +59,7 @@
     <item>
       <title>도구</title>
       <link>https://dolsup.github.io/tags/%EB%8F%84%EA%B5%AC/</link>
-      <pubDate>Sun, 26 Apr 2020 23:26:10 +0900</pubDate>
+      <pubDate>Sat, 02 May 2020 13:45:13 +0900</pubDate>
       
       <guid>https://dolsup.github.io/tags/%EB%8F%84%EA%B5%AC/</guid>
       <description></description>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Macos on 돌과 숲</title>
-    <link>https://dolsup.github.io/tags/macos/</link>
-    <description>Recent content in Macos on 돌과 숲</description>
+    <title>Command Line Interface on 돌과 숲</title>
+    <link>https://dolsup.github.io/tags/command-line-interface/</link>
+    <description>Recent content in Command Line Interface on 돌과 숲</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-KR</language>
     <lastBuildDate>Sat, 02 May 2020 13:45:13 +0900</lastBuildDate>
     
-	<atom:link href="https://dolsup.github.io/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dolsup.github.io/tags/command-line-interface/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>https://dolsup.github.io/posts/create-mac-app-with-platypus/</guid>
       <description>Platypus.png by sveinbjorn.org/platypus Platypus는 일반적인 Shell script를 포함하여 Python, Node.js 프로그램 등 커맨드라인 스크립트를 네이티브 Mac 어플리케이션으로 만들 수 있는 오픈소스 툴입니</description>
-    </item>
-    
-    <item>
-      <title>Sequel Pro의 크래시 문제 대처</title>
-      <link>https://dolsup.github.io/posts/how-to-deal-with-sequel-pro-crash/</link>
-      <pubDate>Sun, 26 Apr 2020 23:26:10 +0900</pubDate>
-      
-      <guid>https://dolsup.github.io/posts/how-to-deal-with-sequel-pro-crash/</guid>
-      <description>Sequel Pro는 macOS에서 사용할 수 있는 아주 편리하고 강력한 오픈소스 MySQL, MariaDB 클라이언트 GUI 툴입니다. 저도 이 툴을 사용한지가 상당히 오래 되었습니다. 그러나 사실</description>
     </item>
     
   </channel>
