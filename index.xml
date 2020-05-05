@@ -13,28 +13,28 @@
     
     <item>
       <title>Redis GUI 클라이언트, Medis 설치하기</title>
-      <link>https://dolsup.github.io/posts/how-to-build-medis-on-macos/</link>
+      <link>https://dolsup.github.io/tech-blog/how-to-build-medis-on-macos/</link>
       <pubDate>Sat, 02 May 2020 22:45:55 +0900</pubDate>
       
-      <guid>https://dolsup.github.io/posts/how-to-build-medis-on-macos/</guid>
+      <guid>https://dolsup.github.io/tech-blog/how-to-build-medis-on-macos/</guid>
       <description>Image from getmedis.com TL;DR for macOS 많이 바쁘시죠? git clone https://github.com/luin/medis.git cd medis npm i npm run pack # webpack analyzer가 뜨고 난 후 프로세스를 종료하세요 (^C) node bin/pack.js # No identity found for signing 에러는 무시하세요 cd dist/out/Medis-mas-x64/ open . #</description>
     </item>
     
     <item>
       <title>Platypus로 CLI 앱을 Mac 네이티브 앱으로 번들링하기</title>
-      <link>https://dolsup.github.io/posts/create-mac-app-with-platypus/</link>
+      <link>https://dolsup.github.io/tech-blog/create-mac-app-with-platypus/</link>
       <pubDate>Sat, 02 May 2020 13:45:13 +0900</pubDate>
       
-      <guid>https://dolsup.github.io/posts/create-mac-app-with-platypus/</guid>
+      <guid>https://dolsup.github.io/tech-blog/create-mac-app-with-platypus/</guid>
       <description>Platypus.png by sveinbjorn.org/platypus Platypus는 일반적인 Shell script를 포함하여 Python, Node.js 프로그램 등 커맨드라인 스크립트를 네이티브 Mac 어플리케이션으로 만들 수 있는 오픈소스 툴입니</description>
     </item>
     
     <item>
       <title>Sequel Pro의 크래시 문제 대처</title>
-      <link>https://dolsup.github.io/posts/how-to-deal-with-sequel-pro-crash/</link>
+      <link>https://dolsup.github.io/tech-blog/how-to-deal-with-sequel-pro-crash/</link>
       <pubDate>Sun, 26 Apr 2020 23:26:10 +0900</pubDate>
       
-      <guid>https://dolsup.github.io/posts/how-to-deal-with-sequel-pro-crash/</guid>
+      <guid>https://dolsup.github.io/tech-blog/how-to-deal-with-sequel-pro-crash/</guid>
       <description>Sequel Pro는 macOS에서 사용할 수 있는 아주 편리하고 강력한 오픈소스 MySQL, MariaDB 클라이언트 GUI 툴입니다. 저도 이 툴을 사용한지가 상당히 오래 되었습니다. 그러나 사실</description>
     </item>
     
@@ -49,28 +49,28 @@
     
     <item>
       <title>溶けない名前 - 幽霊少女は八月を殺す</title>
-      <link>https://dolsup.github.io/posts/yurei-shoujo/</link>
+      <link>https://dolsup.github.io/blog/yurei-shoujo/</link>
       <pubDate>Mon, 14 Oct 2019 22:52:32 +0900</pubDate>
       
-      <guid>https://dolsup.github.io/posts/yurei-shoujo/</guid>
+      <guid>https://dolsup.github.io/blog/yurei-shoujo/</guid>
       <description>溶けない名前(토케나이나마에, 녹지않는 이름)은 여느 일본 밴드처럼 앨범아트에 교복 소녀가 그려져 있고 여성 보컬이 안 들리는 가사를 중얼거리는 동안 조악하게 녹</description>
     </item>
     
     <item>
       <title>일단 만들어 그리고 부숴</title>
-      <link>https://dolsup.github.io/posts/just-start/</link>
+      <link>https://dolsup.github.io/blog/just-start/</link>
       <pubDate>Wed, 09 Oct 2019 21:17:12 +0900</pubDate>
       
-      <guid>https://dolsup.github.io/posts/just-start/</guid>
+      <guid>https://dolsup.github.io/blog/just-start/</guid>
       <description>오전 1:04 나: 공개적으로 뭔가 작업을 하려고 할 때 오전 1:04 나: 욕먹을 걱정을 먼저 한다 오전 1:05 친구A: 그냥 하고 욕 먹으셈 오전 1:05 나: 오 좋은 생각이야 오전 1:05 나: 광역 어</description>
     </item>
     
     <item>
       <title>블로그 시작합니다..!!!</title>
-      <link>https://dolsup.github.io/posts/initial-commit/</link>
+      <link>https://dolsup.github.io/blog/initial-commit/</link>
       <pubDate>Sun, 06 Jan 2019 16:41:32 +0900</pubDate>
       
-      <guid>https://dolsup.github.io/posts/initial-commit/</guid>
+      <guid>https://dolsup.github.io/blog/initial-commit/</guid>
       <description>블로그 시작합니다. 주로 TIL이나 소프트웨어 개발 관련 이야기를 할 예정입니다. 글도 계속 쓰고 여러가지 기능도 조금씩 추가할 예정입니다. 일단 만들어 그리고 부</description>
     </item>
     

@@ -13,10 +13,10 @@
     
     <item>
       <title>Platypus로 CLI 앱을 Mac 네이티브 앱으로 번들링하기</title>
-      <link>https://dolsup.github.io/posts/create-mac-app-with-platypus/</link>
+      <link>https://dolsup.github.io/tech-blog/create-mac-app-with-platypus/</link>
       <pubDate>Sat, 02 May 2020 13:45:13 +0900</pubDate>
       
-      <guid>https://dolsup.github.io/posts/create-mac-app-with-platypus/</guid>
+      <guid>https://dolsup.github.io/tech-blog/create-mac-app-with-platypus/</guid>
       <description>Platypus.png by sveinbjorn.org/platypus Platypus는 일반적인 Shell script를 포함하여 Python, Node.js 프로그램 등 커맨드라인 스크립트를 네이티브 Mac 어플리케이션으로 만들 수 있는 오픈소스 툴입니</description>
     </item>
     

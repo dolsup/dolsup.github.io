@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Macos on 돌과 숲</title>
-    <link>https://dolsup.github.io/tags/macos/</link>
-    <description>Recent content in Macos on 돌과 숲</description>
+    <title>Tech-blogs on 돌과 숲</title>
+    <link>https://dolsup.github.io/tech-blog/</link>
+    <description>Recent content in Tech-blogs on 돌과 숲</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-KR</language>
     <lastBuildDate>Sat, 02 May 2020 22:45:55 +0900</lastBuildDate>
     
-	<atom:link href="https://dolsup.github.io/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dolsup.github.io/tech-blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
