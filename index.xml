@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>돌과 숲</title>
@@ -6,18 +6,14 @@
     <description>Recent content on 돌과 숲</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Wed, 06 May 2020 23:45:13 +0900</lastBuildDate>
-    
-	<atom:link href="https://dolsup.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 06 May 2020 23:45:13 +0900</lastBuildDate><atom:link href="https://dolsup.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vue의 더 가벼운 대안, Alpine.js</title>
       <link>https://dolsup.github.io/tech-blog/introduce-alpinejs/</link>
       <pubDate>Wed, 06 May 2020 23:45:13 +0900</pubDate>
       
       <guid>https://dolsup.github.io/tech-blog/introduce-alpinejs/</guid>
-      <description>약 5개월 만에 7.3k의 Star를 모은 Alpine.js Image by star-history.t9t.io Alpine.js란? Alpine.js는 2019년 11월에 시작된 신생 라이브러리 또는 프레임워크입</description>
+      <description>Alpine.js란? Alpine.js는 2019년 11월에 시작된 신생 라이브러리 또는 프레임워크입니다. 2020년 5월 6일 기준 v2.3.3까지</description>
     </item>
     
     <item>
@@ -26,7 +22,7 @@
       <pubDate>Sat, 02 May 2020 22:45:55 +0900</pubDate>
       
       <guid>https://dolsup.github.io/tech-blog/how-to-build-medis-on-macos/</guid>
-      <description>Image from getmedis.com TL;DR for macOS 많이 바쁘시죠? git clone https://github.com/luin/medis.git cd medis npm i npm run pack # webpack analyzer가 뜨고 난 후 프로세스를 종료하세요 (^C) node bin/pack.js # No identity found for signing 에러는 무시하세요 cd dist/out/Medis-mas-x64/ open . #</description>
+      <description>TL;DR for macOS 많이 바쁘시죠? git clone https://github.com/luin/medis.git cd medis npm i npm run pack # webpack analyzer가 뜨고 난 후 프로세스를 종료하세요 (^C) node bin/pack.js # No identity found for signing 에러는 무시하세요 cd dist/out/Medis-mas-x64/ open . # Fin</description>
     </item>
     
     <item>
@@ -35,7 +31,7 @@
       <pubDate>Sat, 02 May 2020 13:45:13 +0900</pubDate>
       
       <guid>https://dolsup.github.io/tech-blog/create-mac-app-with-platypus/</guid>
-      <description>Platypus.png by sveinbjorn.org/platypus Platypus는 일반적인 Shell script를 포함하여 Python, Node.js 프로그램 등 커맨드라인 스크립트를 네이티브 Mac 어플리케이션으로 만들 수 있는 오픈소스 툴입니</description>
+      <description>Platypus는 일반적인 Shell script를 포함하여 Python, Node.js 프로그램 등 커맨드라인 스크립트를 네이티브 Mac 어플리케이션으로 만들 수 있는 오픈소스 툴입니다. Electron</description>
     </item>
     
     <item>
@@ -54,15 +50,6 @@
       
       <guid>https://dolsup.github.io/about/</guid>
       <description>About Me 먹고 마시고 읽고 만드는 것을 좋아합니다. [TODO] My Distributed Digital Ego Email — 1890mah@gmail.com Github — @dolsup Keybase — @dolsup Facebook — 최지원 History 2015.10 – now Ecube Labs 소프트웨어 엔지니어 2013.3 – 2016.1 한국디지털미디어고등학교 웹</description>
-    </item>
-    
-    <item>
-      <title>溶けない名前 - 幽霊少女は八月を殺す</title>
-      <link>https://dolsup.github.io/blog/yurei-shoujo/</link>
-      <pubDate>Mon, 14 Oct 2019 22:52:32 +0900</pubDate>
-      
-      <guid>https://dolsup.github.io/blog/yurei-shoujo/</guid>
-      <description>溶けない名前(토케나이나마에, 녹지않는 이름)은 여느 일본 밴드처럼 앨범아트에 교복 소녀가 그려져 있고 여성 보컬이 안 들리는 가사를 중얼거리는 동안 조악하게 녹</description>
     </item>
     
     <item>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on 돌과 숲</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Tags on 돌과 숲</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Wed, 06 May 2020 23:45:13 +0900</lastBuildDate>
-    
-	<atom:link href="https://dolsup.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 06 May 2020 23:45:13 +0900</lastBuildDate><atom:link href="https://dolsup.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Alpine.js</title>
       <link>https://dolsup.github.io/tags/alpine.js/</link>
@@ -21,16 +17,7 @@
     </item>
     
     <item>
-      <title>Command Line Interface</title>
-      <link>https://dolsup.github.io/tags/command-line-interface/</link>
-      <pubDate>Sat, 02 May 2020 13:45:13 +0900</pubDate>
-      
-      <guid>https://dolsup.github.io/tags/command-line-interface/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Front End</title>
+      <title>Front-end</title>
       <link>https://dolsup.github.io/tags/front-end/</link>
       <pubDate>Wed, 06 May 2020 23:45:13 +0900</pubDate>
       
@@ -39,7 +26,16 @@
     </item>
     
     <item>
-      <title>Macos</title>
+      <title>Web</title>
+      <link>https://dolsup.github.io/tags/web/</link>
+      <pubDate>Wed, 06 May 2020 23:45:13 +0900</pubDate>
+      
+      <guid>https://dolsup.github.io/tags/web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>macOS</title>
       <link>https://dolsup.github.io/tags/macos/</link>
       <pubDate>Sat, 02 May 2020 22:45:55 +0900</pubDate>
       
@@ -57,29 +53,11 @@
     </item>
     
     <item>
-      <title>Platypus</title>
-      <link>https://dolsup.github.io/tags/platypus/</link>
-      <pubDate>Sat, 02 May 2020 13:45:13 +0900</pubDate>
-      
-      <guid>https://dolsup.github.io/tags/platypus/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Redis</title>
       <link>https://dolsup.github.io/tags/redis/</link>
       <pubDate>Sat, 02 May 2020 22:45:55 +0900</pubDate>
       
       <guid>https://dolsup.github.io/tags/redis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sequel Pro</title>
-      <link>https://dolsup.github.io/tags/sequel-pro/</link>
-      <pubDate>Sun, 26 Apr 2020 23:26:10 +0900</pubDate>
-      
-      <guid>https://dolsup.github.io/tags/sequel-pro/</guid>
       <description></description>
     </item>
     
@@ -93,20 +71,38 @@
     </item>
     
     <item>
-      <title>Web</title>
-      <link>https://dolsup.github.io/tags/web/</link>
-      <pubDate>Wed, 06 May 2020 23:45:13 +0900</pubDate>
-      
-      <guid>https://dolsup.github.io/tags/web/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>도구</title>
       <link>https://dolsup.github.io/tags/%EB%8F%84%EA%B5%AC/</link>
       <pubDate>Sat, 02 May 2020 22:45:55 +0900</pubDate>
       
       <guid>https://dolsup.github.io/tags/%EB%8F%84%EA%B5%AC/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Command-line Interface</title>
+      <link>https://dolsup.github.io/tags/command-line-interface/</link>
+      <pubDate>Sat, 02 May 2020 13:45:13 +0900</pubDate>
+      
+      <guid>https://dolsup.github.io/tags/command-line-interface/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Platypus</title>
+      <link>https://dolsup.github.io/tags/platypus/</link>
+      <pubDate>Sat, 02 May 2020 13:45:13 +0900</pubDate>
+      
+      <guid>https://dolsup.github.io/tags/platypus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sequel Pro</title>
+      <link>https://dolsup.github.io/tags/sequel-pro/</link>
+      <pubDate>Sun, 26 Apr 2020 23:26:10 +0900</pubDate>
+      
+      <guid>https://dolsup.github.io/tags/sequel-pro/</guid>
       <description></description>
     </item>
     
