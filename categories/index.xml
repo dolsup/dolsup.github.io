@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on 돌과 숲</title>
-    <link>https://dolsup.github.io/categories/</link>
+    <link>https://dolsup.work/categories/</link>
     <description>Recent content in Categories on 돌과 숲</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Wed, 06 May 2020 23:45:13 +0900</lastBuildDate><atom:link href="https://dolsup.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Nov 2020 18:14:02 +0900</lastBuildDate><atom:link href="https://dolsup.work/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Development</title>
-      <link>https://dolsup.github.io/categories/development/</link>
-      <pubDate>Wed, 06 May 2020 23:45:13 +0900</pubDate>
+      <link>https://dolsup.work/categories/development/</link>
+      <pubDate>Wed, 04 Nov 2020 18:14:02 +0900</pubDate>
       
-      <guid>https://dolsup.github.io/categories/development/</guid>
+      <guid>https://dolsup.work/categories/development/</guid>
       <description></description>
     </item>
     

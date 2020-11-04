@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on 돌과 숲</title>
-    <link>https://dolsup.github.io/blog/</link>
+    <link>https://dolsup.work/blog/</link>
     <description>Recent content in Blogs on 돌과 숲</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Wed, 09 Oct 2019 21:17:12 +0900</lastBuildDate><atom:link href="https://dolsup.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Oct 2019 21:17:12 +0900</lastBuildDate><atom:link href="https://dolsup.work/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>일단 만들어 그리고 부숴</title>
-      <link>https://dolsup.github.io/blog/just-start/</link>
+      <link>https://dolsup.work/blog/just-start/</link>
       <pubDate>Wed, 09 Oct 2019 21:17:12 +0900</pubDate>
       
-      <guid>https://dolsup.github.io/blog/just-start/</guid>
+      <guid>https://dolsup.work/blog/just-start/</guid>
       <description>오전 1:04 나: 공개적으로 뭔가 작업을 하려고 할 때 오전 1:04 나: 욕먹을 걱정을 먼저 한다 오전 1:05 친구A: 그냥 하고 욕 먹으셈 오전 1:05 나: 오 좋은 생각이야 오전 1:05 나: 광역 어</description>
     </item>
     
     <item>
       <title>블로그 시작합니다..!!!</title>
-      <link>https://dolsup.github.io/blog/initial-commit/</link>
+      <link>https://dolsup.work/blog/initial-commit/</link>
       <pubDate>Sun, 06 Jan 2019 16:41:32 +0900</pubDate>
       
-      <guid>https://dolsup.github.io/blog/initial-commit/</guid>
+      <guid>https://dolsup.work/blog/initial-commit/</guid>
       <description>블로그 시작합니다. 주로 TIL이나 소프트웨어 개발 관련 이야기를 할 예정입니다. 글도 계속 쓰고 여러가지 기능도 조금씩 추가할 예정입니다. 일단 만들어 그리고 부</description>
     </item>
     

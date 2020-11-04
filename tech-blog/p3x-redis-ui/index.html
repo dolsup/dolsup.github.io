@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <title>웹 기반 Redis GUI 클라이언트, P3X Redis UI - 돌과 숲</title>
+  
+  <meta name="description" content="개요 P3X Redis UI는 웹이나 데스크탑 앱(Electron)으로 사용할 수 있는 Redis GUI 클라이언트입니다. GitHub Repository: https://github.com/patrikx3/redis-ui 온라인 데모: https://p3x.redis.patrikx3.com/ .notice{padding:18px;line-height:24px;margin-bottom:24px;border-radius:4px;color:#444;background:#e7f2fa}.notice p:last-child{margin-bottom:0}.notice-title{margin:-18px -18px 12px;padding:4px 18px;border-radius:4px 4px 0 0;font-weight:700;color:#fff;background:#6ab0de}.notice-title:before{margin-right:8px;font-family:&#34;Font Awesome 5 Free&#34;,FontAwesome;font-weight:400}.notice.warning .notice-title{background:rgba(217,83,79,.9)}.notice.warning .notice-title:before{content:&#39;\f071&#39;}.notice.warning{background:#fae2e2}.notice.info .notice-title{background:#f0b37e}.notice.info .notice-title:before{content:&#39;\f05a&#39;}.notice.info{background:#fff2db}.notice.note .notice-title{background:#6ab0de}.notice.note">
+  <meta name="author" content="dolsup">
+  <meta name="date" content="2020-11-04 18:14:02 &#43;0900 KST">
+  <meta http-equiv="last-modified" content="2020-11-04 20:03:58 &#43;0900 KST"
+  >
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49954888-5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-49954888-5');
+    gtag('set', {'user_id': 'USER_ID'});
+  </script>
+  <script async src="https://dolsup.work/scripts/prism.js"></script>
+
+  
+  <link rel="stylesheet" href="https://dolsup.work//styles/applause-button.css" />
+  <script src="https://dolsup.work//scripts/applause-button.js"></script>
+
+  
+  <link href="https://dolsup.work/css/font.css" rel="stylesheet">
+  <link href="https://dolsup.work/css/atom-one-dark.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i" rel="stylesheet">
+  <link href="https://dolsup.work/css/style.css" rel="stylesheet">
+  <link href="https://dolsup.work/styles/post.css" rel="stylesheet">
+  <link href="https://dolsup.work/styles/prism.css" rel="stylesheet">
+  
+  <link rel="apple-touch-icon" href="https://dolsup.work/img/apple-touch-icon.png">
+  <link rel="icon" href="https://dolsup.work/img/favicon.ico">
+  
+  <meta name="generator" content="Hugo 0.75.1" />
+  
+  <link rel="alternate" type="application/atom+xml" href="https://dolsup.work/index.xml" title="돌과 숲">
+  
+</head>
+
+<body class="single">
+  <header class="header">
+    
+    <p class="title"><a href="https://dolsup.work/">돌과 숲</a></p>
+    
+    <input class="menu-toggle" type="checkbox"/>
+    <nav class="menu">
+      <ul>
+        
+        
+        
+        <a href="/about">
+          <li class="">
+              About
+          </li>
+        </a>
+        <a href="/tech-blog">
+          <li class="">
+            개발 블로그
+          </li>
+        </a>
+        <hr>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+
+<article class="post post-view">
+  <header class="post-header">
+    <h1 class="post-title">웹 기반 Redis GUI 클라이언트, P3X Redis UI</h1>
+    <p class="post-meta">
+      <span>2020.11.4</span>
+      
+        <span>발행</span>
+        <span> · </span>
+        <span>2020.11.4</span>
+        <span>편집</span>
+      
+    </p>
+    
+    <ul class="post-tags">
+      
+      <li><a href="https://dolsup.work/tags/redis/">Redis</a></li>
+      
+      <li><a href="https://dolsup.work/tags/%EB%8F%84%EA%B5%AC/">도구</a></li>
+      
+      <li><a href="https://dolsup.work/tags/macos/">macOS</a></li>
+      
+      <li><a href="https://dolsup.work/tags/tip/">Tip</a></li>
+      
+    </ul>
+    
+  </header>
+  <div class="post-content"><h2 id="개요">개요</h2>
+<p>P3X Redis UI는 웹이나 데스크탑 앱(Electron)으로 사용할 수 있는 Redis GUI 클라이언트입니다.<br>
+GitHub Repository: <a href="https://github.com/patrikx3/redis-ui">https://github.com/patrikx3/redis-ui</a><br>
+<strong>온라인 데모</strong>: <a href="https://p3x.redis.patrikx3.com/">https://p3x.redis.patrikx3.com/</a></p>
+<style type="text/css">.notice{padding:18px;line-height:24px;margin-bottom:24px;border-radius:4px;color:#444;background:#e7f2fa}.notice p:last-child{margin-bottom:0}.notice-title{margin:-18px -18px 12px;padding:4px 18px;border-radius:4px 4px 0 0;font-weight:700;color:#fff;background:#6ab0de}.notice-title:before{margin-right:8px;font-family:"Font Awesome 5 Free",FontAwesome;font-weight:400}.notice.warning .notice-title{background:rgba(217,83,79,.9)}.notice.warning .notice-title:before{content:'\f071'}.notice.warning{background:#fae2e2}.notice.info .notice-title{background:#f0b37e}.notice.info .notice-title:before{content:'\f05a'}.notice.info{background:#fff2db}.notice.note .notice-title{background:#6ab0de}.notice.note .notice-title:before{content:'\f06a'}.notice.note{background:#e7f2fA}.notice.tip .notice-title{background:rgba(92,184,92,.8)}.notice.tip .notice-title:before{content:'\f058'}.notice.tip{background:#e6f9e6}</style><div class="notice note"  id="주의" ><p class="first notice-title">주의</p>
+<p>2020년 11월 4일 기준, Sentinel을 지원하지 않습니다.
+<a href="https://github.com/patrikx3/redis-ui#features">참고</a></p></div>
+
+<h2 id="웹으로-사용하기">웹으로 사용하기</h2>
+<p>사용할 수 있는 방법이 굉장히 다양한데 웹으로 사용하는 방법을 알아봅시다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">npm i -g p3x-redis-ui
+p3x-redis
+</code></pre></div><p>npm으로 설치할 수 있습니다.
+별도의 설정 없이 실행 후 <a href="http://localhost:7843">http://localhost:7843</a> 으로 접속하면 바로 사용 가능합니다.</p>
+<h3 id="설정">설정</h3>
+<p>p3x-redis-ui는 json으로 된 설정 파일 두 개를 인자로 받을 수 있습니다.</p>
+<ul>
+<li>설정 파일: <code>-c</code> 파라미터로 넘길 수 있습니다. <a href="https://github.com/patrikx3/redis-ui/blob/master/p3xrs.json">p3xrs.json 예시</a></li>
+<li>커넥션 정보 파일: <code>-n</code>으로 넘길 수 있는 커넥션 정보 파일입니다. 그냥 실행하면 홈 디렉토리에 <code>.p3xrs-conns.json</code>을 생성하는데 여기에 커넥션 정보가 저장됩니다.</li>
+</ul>
+<p>자세한 설정에 관해서는 <a href="https://github.com/patrikx3/redis-ui-server">redis-ui-server</a>를 참고하세요.</p>
+</div>
+  <footer class="post-footer">
+    
+    <div class="applause-button-container">
+      <applause-button url="https://dolsup.work/tech-blog/p3x-redis-ui/" style="width: 3em; height: 3em; margin: 0 auto"/>
+    </div>
+    <div id="comments-container">
+    <script src="https://utteranc.es/client.js"
+    data-repo="dolsup/dolsup.github.io"
+    data-issue-term="title"
+    label="utterance"
+    data-theme="github-light"
+    crossorigin="anonymous"
+    async>
+  </script>
+</div>
+
+  </footer>
+</article>
+</main>
+<footer class="footer">
+  <span>&copy; 2020 돌과 숲</span>
+  <span>&middot;</span>
+  <a href="https://github.com/dolsup" class="link">GitHub</a>
+</footer>
+</body>
+</html>
+
