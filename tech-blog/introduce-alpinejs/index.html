@@ -1,167 +1,20 @@
-<!DOCTYPE html>
-<html lang="ko-KR">
+<!doctype html><html lang=ko-kr><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><title>Vue의 더 가벼운 대안, Alpine.js - 돌과 숲</title><meta name=description content="Alpine.js란? Alpine.js는 2019년 11월에 시작된 신생 라이브러리 또는 프레임워크입니다. 2020년 5월 6일 기준 v2.3.3까지"><meta name=author content="dolsup"><meta name=date content="2020-05-06 23:45:13 +0900 +0900"><meta http-equiv=last-modified content="2020-05-07 01:32:14 +0900 +0900"><script async src="https://www.googletagmanager.com/gtag/js?id=UA-49954888-5"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('js',new Date());gtag('config','UA-49954888-5');gtag('set',{'user_id':'USER_ID'});</script><script async src=https://dolsup.work/scripts/prism.js></script><link rel=stylesheet href=https://dolsup.work//styles/applause-button.css><script src=https://dolsup.work//scripts/applause-button.js></script><link href=https://dolsup.work/css/font.css rel=stylesheet><link href=https://dolsup.work/css/atom-one-dark.min.css rel=stylesheet><link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i" rel=stylesheet><link href=https://dolsup.work/css/style.css rel=stylesheet><link href=https://dolsup.work/styles/post.css rel=stylesheet><link href=https://dolsup.work/styles/prism.css rel=stylesheet><link rel=apple-touch-icon href=https://dolsup.work/img/apple-touch-icon.png><link rel=icon href=https://dolsup.work/img/favicon.ico><meta name=generator content="Hugo 0.75.1"><link rel=alternate type=application/atom+xml href=https://dolsup.work/index.xml title="돌과 숲"></head><body class=single><header class=header><p class=title><a href=https://dolsup.work/>돌과 숲</a></p><input class=menu-toggle type=checkbox><nav class=menu><ul><a href=/about><li>About</li></a><a href=/tech-blog><li>개발 블로그</li></a><hr></ul></nav></header><main class=main><article class="post post-view"><header class=post-header><h1 class=post-title>Vue의 더 가벼운 대안, Alpine.js</h1><p class=post-meta><span>2020.5.6</span>
+<span>발행</span>
+<span>·</span>
+<span>2020.5.7</span>
+<span>편집</span></p><ul class=post-tags><li><a href=https://dolsup.work/tags/web/>Web</a></li><li><a href=https://dolsup.work/tags/front-end/>Front-end</a></li><li><a href=https://dolsup.work/tags/alpine.js/>Alpine.js</a></li></ul></header><div class=post-content><h2 id=alpinejs란>Alpine.js란?</h2><p><a href=https://github.com/alpinejs/alpine>Alpine.js</a>는 2019년 11월에 시작된 신생 라이브러리 또는 프레임워크입니다. 2020년 5월 6일 기준 v2.3.3까지 릴리즈되었습니다.</p><p>공식 레포지토리의 설명에 따르면 <strong>Alpine은 마크업(HTML) 내에서 JavaScript 동작을 구성할 수 있는 아주 작고 튼튼한 프레임워크입니다.</strong> 반응형의 선언적인 코드를 아주 적은 비용으로 작성할 수 있습니다.</p><p>이 프로젝트의 저자인 <a href=https://github.com/calebporzio>Caleb Porzio</a>에 따르면, Alpine은 &lsquo;바닐라 JS(또는 jQuery)와 Vue나 React같은 거대한 Virtual DOM 프레임워크의 간극을 메우는 것&rsquo;을 목적으로 한다고 합니다. Alpine은 Vue나 React를 대체하는 것이 아니며, 함께 사용될 수도 있습니다. 서버사이드 렌더링을 사용하는 경우와도 잘 어울립니다.</p><p>이미 Vue도 충분히 가벼운 웹 프레임워크로서 잘 기능하고 있는 것 같은데 또 웬 놈의 경량 프레임워크냐! 라고 피로감을 호소하실 분들도 있을 것 같습니다. 하지만 Alpine.js는 웹페이지에 JS가 간단히 필요할 때 아주 유용한 선택지입니다. 한번 알아봅시다.</p><h2 id=get-started>Get Started!</h2><p>Alpine은 가벼운 만큼 세팅이 쉽습니다. 빌드를 필요로 하지 않으며, CDN이나 셀프 호스팅을 통해 alpine.js 파일 하나만 불러오면 스스로 initiate되며 모든 준비가 끝납니다. npm 패키지 이름은 <code>alpinejs</code>입니다.</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html>&lt;<span style=color:#f92672>script</span> <span style=color:#a6e22e>src</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js&#34;</span> <span style=color:#a6e22e>defer</span>&gt;&lt;/<span style=color:#f92672>script</span>&gt;
+</code></pre></div><p>이제 Alpine.js를 마크업에서 바로 사용할 수 있습니다.<br>대부분의 문법을 Vue에서 따왔기 때문에, Vue 사용 경험이 있다면 익히기가 매우 쉽습니다.</p><p>Alpine으로 구현된 드랍다운 예시:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-HTML data-lang=HTML>&lt;<span style=color:#f92672>div</span> <span style=color:#a6e22e>x-data</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;{ open: false }&#34;</span>&gt;
+    &lt;<span style=color:#f92672>button</span> <span style=color:#960050;background-color:#1e0010>@</span><span style=color:#a6e22e>click</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;open = true&#34;</span>&gt;Open Dropdown&lt;/<span style=color:#f92672>button</span>&gt;
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  
-  <title>Vue의 더 가벼운 대안, Alpine.js - 돌과 숲</title>
-  
-  <meta name="description" content="Alpine.js란? Alpine.js는 2019년 11월에 시작된 신생 라이브러리 또는 프레임워크입니다. 2020년 5월 6일 기준 v2.3.3까지">
-  <meta name="author" content="dolsup">
-  <meta name="date" content="2020-05-06 23:45:13 &#43;0900 KST">
-  <meta http-equiv="last-modified" content="2020-05-07 01:32:14 &#43;0900 KST"
-  >
-  
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49954888-5"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-49954888-5');
-    gtag('set', {'user_id': 'USER_ID'});
-  </script>
-  <script async src="https://dolsup.work/scripts/prism.js"></script>
-
-  
-  <link rel="stylesheet" href="https://dolsup.work//styles/applause-button.css" />
-  <script src="https://dolsup.work//scripts/applause-button.js"></script>
-
-  
-  <link href="https://dolsup.work/css/font.css" rel="stylesheet">
-  <link href="https://dolsup.work/css/atom-one-dark.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i" rel="stylesheet">
-  <link href="https://dolsup.work/css/style.css" rel="stylesheet">
-  <link href="https://dolsup.work/styles/post.css" rel="stylesheet">
-  <link href="https://dolsup.work/styles/prism.css" rel="stylesheet">
-  
-  <link rel="apple-touch-icon" href="https://dolsup.work/img/apple-touch-icon.png">
-  <link rel="icon" href="https://dolsup.work/img/favicon.ico">
-  
-  <meta name="generator" content="Hugo 0.75.1" />
-  
-  <link rel="alternate" type="application/atom+xml" href="https://dolsup.work/index.xml" title="돌과 숲">
-  
-</head>
-
-<body class="single">
-  <header class="header">
-    
-    <p class="title"><a href="https://dolsup.work/">돌과 숲</a></p>
-    
-    <input class="menu-toggle" type="checkbox"/>
-    <nav class="menu">
-      <ul>
-        
-        
-        
-        <a href="/about">
-          <li class="">
-              About
-          </li>
-        </a>
-        <a href="/tech-blog">
-          <li class="">
-            개발 블로그
-          </li>
-        </a>
-        <hr>
-      </ul>
-    </nav>
-  </header>
-  <main class="main">
-
-<article class="post post-view">
-  <header class="post-header">
-    <h1 class="post-title">Vue의 더 가벼운 대안, Alpine.js</h1>
-    <p class="post-meta">
-      <span>2020.5.6</span>
-      
-        <span>발행</span>
-        <span> · </span>
-        <span>2020.5.7</span>
-        <span>편집</span>
-      
-    </p>
-    
-    <ul class="post-tags">
-      
-      <li><a href="https://dolsup.work/tags/web/">Web</a></li>
-      
-      <li><a href="https://dolsup.work/tags/front-end/">Front-end</a></li>
-      
-      <li><a href="https://dolsup.work/tags/alpine.js/">Alpine.js</a></li>
-      
-    </ul>
-    
-  </header>
-  <div class="post-content"><!-- raw HTML omitted -->
-<h2 id="alpinejs란">Alpine.js란?</h2>
-<p><a href="https://github.com/alpinejs/alpine">Alpine.js</a>는 2019년 11월에 시작된 신생 라이브러리 또는 프레임워크입니다. 2020년 5월 6일 기준 v2.3.3까지 릴리즈되었습니다.</p>
-<p>공식 레포지토리의 설명에 따르면 <strong>Alpine은 마크업(HTML) 내에서 JavaScript 동작을 구성할 수 있는 아주 작고 튼튼한 프레임워크입니다.</strong> 반응형의 선언적인 코드를 아주 적은 비용으로 작성할 수 있습니다.</p>
-<p>이 프로젝트의 저자인 <a href="https://github.com/calebporzio">Caleb Porzio</a>에 따르면, Alpine은 &lsquo;바닐라 JS(또는 jQuery)와 Vue나 React같은 거대한 Virtual DOM 프레임워크의 간극을 메우는 것&rsquo;을 목적으로 한다고 합니다. Alpine은 Vue나 React를 대체하는 것이 아니며, 함께 사용될 수도 있습니다. 서버사이드 렌더링을 사용하는 경우와도 잘 어울립니다.</p>
-<p>이미 Vue도 충분히 가벼운 웹 프레임워크로서 잘 기능하고 있는 것 같은데 또 웬 놈의 경량 프레임워크냐! 라고 피로감을 호소하실 분들도 있을 것 같습니다. 하지만 Alpine.js는 웹페이지에 JS가 간단히 필요할 때 아주 유용한 선택지입니다. 한번 알아봅시다.</p>
-<h2 id="get-started">Get Started!</h2>
-<p>Alpine은 가벼운 만큼 세팅이 쉽습니다. 빌드를 필요로 하지 않으며, CDN이나 셀프 호스팅을 통해 alpine.js 파일 하나만 불러오면 스스로 initiate되며 모든 준비가 끝납니다. npm 패키지 이름은 <code>alpinejs</code>입니다.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js&#34;</span> <span style="color:#a6e22e">defer</span>&gt;&lt;/<span style="color:#f92672">script</span>&gt;
-</code></pre></div><p>이제 Alpine.js를 마크업에서 바로 사용할 수 있습니다.<br>
-대부분의 문법을 Vue에서 따왔기 때문에, Vue 사용 경험이 있다면 익히기가 매우 쉽습니다.</p>
-<p>Alpine으로 구현된 드랍다운 예시:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-HTML" data-lang="HTML">&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">x-data</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{ open: false }&#34;</span>&gt;
-    &lt;<span style="color:#f92672">button</span> <span style="color:#960050;background-color:#1e0010">@</span><span style="color:#a6e22e">click</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;open = true&#34;</span>&gt;Open Dropdown&lt;/<span style="color:#f92672">button</span>&gt;
-
-    &lt;<span style="color:#f92672">ul</span>
-        <span style="color:#a6e22e">x-show</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;open&#34;</span>
-        <span style="color:#960050;background-color:#1e0010">@</span><span style="color:#a6e22e">click</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">away</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;open = false&#34;</span>
+    &lt;<span style=color:#f92672>ul</span>
+        <span style=color:#a6e22e>x-show</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;open&#34;</span>
+        <span style=color:#960050;background-color:#1e0010>@</span><span style=color:#a6e22e>click</span><span style=color:#960050;background-color:#1e0010>.</span><span style=color:#a6e22e>away</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;open = false&#34;</span>
     &gt;
         Dropdown Body
-    &lt;/<span style="color:#f92672">ul</span>&gt;
-&lt;/<span style="color:#f92672">div</span>&gt;
+    &lt;/<span style=color:#f92672>ul</span>&gt;
+&lt;/<span style=color:#f92672>div</span>&gt;
 </code></pre></div><p>Alpine은 Virtual DOM을 사용하지 않으며, 모든 것은 HTML markup 내에서 선언적으로 이루어집니다. DOM과 동작은 분리되지 않습니다. 그렇기 때문에 선언적인 코드를 쉽게 작성할 수 있습니다.
-Alpine에는 13개의 디렉티브와 5개의 Magic Properties가 존재하며, 이 모든 것에 대한 문서가 <a href="https://github.com/alpinejs/alpine/blob/master/README.md">README.md</a>에 포함되어 있습니다.</p>
-<h2 id="why-alpinejs">Why Alpine.js?</h2>
-<p>위에서 간략히 소개드린 내용에 따르면 Alpine은 다음과 같은 장점이 있습니다.</p>
-<ul>
-<li>가볍습니다. v2.3.3 기준으로, gzip 압축 시 8KB입니다.</li>
-<li>메뉴 내비게이션, 팝업 등 간단한 UI 요소를 최소한의 오버헤드로 빠르게 만들 수 있습니다.</li>
-<li>빌드 과정이 필요 없습니다.</li>
-<li>다른 프레임워크나 기존 시스템과 쉽게 결합될 수 있습니다.</li>
-</ul>
-<p>또한 개인적인 의견으로, Alpine.js는 워낙 단순해서 미성숙한 프로젝트에서 나타나는 문제들이 덜 할 것 같습니다.</p>
-<h2 id="reference">Reference</h2>
-<ul>
-<li><a href="https://github.com/alpinejs/alpine/blob/master/README.md">https://github.com/alpinejs/alpine/blob/master/README.md</a></li>
-<li><a href="https://github.com/alpinejs/alpine">https://github.com/alpinejs/alpine</a></li>
-<li><a href="https://blog.logrocket.com/getting-started-with-alpine-js/">https://blog.logrocket.com/getting-started-with-alpine-js/</a></li>
-<li><a href="https://medium.com/@wearethreebears/a-comparison-of-a-simple-app-in-vue-js-and-alpine-js-2a8c57f8b0e3">https://medium.com/@wearethreebears/a-comparison-of-a-simple-app-in-vue-js-and-alpine-js-2a8c57f8b0e3</a></li>
-</ul>
-</div>
-  <footer class="post-footer">
-    
-    <div class="applause-button-container">
-      <applause-button url="https://dolsup.work/tech-blog/introduce-alpinejs/" style="width: 3em; height: 3em; margin: 0 auto"/>
-    </div>
-    <div id="comments-container">
-    <script src="https://utteranc.es/client.js"
-    data-repo="dolsup/dolsup.github.io"
-    data-issue-term="title"
-    label="utterance"
-    data-theme="github-light"
-    crossorigin="anonymous"
-    async>
-  </script>
-</div>
-
-  </footer>
-</article>
-</main>
-<footer class="footer">
-  <span>&copy; 2020 돌과 숲</span>
-  <span>&middot;</span>
-  <a href="https://github.com/dolsup" class="link">GitHub</a>
-</footer>
-</body>
-</html>
-
+Alpine에는 13개의 디렉티브와 5개의 Magic Properties가 존재하며, 이 모든 것에 대한 문서가 <a href=https://github.com/alpinejs/alpine/blob/master/README.md>README.md</a>에 포함되어 있습니다.</p><h2 id=why-alpinejs>Why Alpine.js?</h2><p>위에서 간략히 소개드린 내용에 따르면 Alpine은 다음과 같은 장점이 있습니다.</p><ul><li>가볍습니다. v2.3.3 기준으로, gzip 압축 시 8KB입니다.</li><li>메뉴 내비게이션, 팝업 등 간단한 UI 요소를 최소한의 오버헤드로 빠르게 만들 수 있습니다.</li><li>빌드 과정이 필요 없습니다.</li><li>다른 프레임워크나 기존 시스템과 쉽게 결합될 수 있습니다.</li></ul><p>또한 개인적인 의견으로, Alpine.js는 워낙 단순해서 미성숙한 프로젝트에서 나타나는 문제들이 덜 할 것 같습니다.</p><h2 id=reference>Reference</h2><ul><li><a href=https://github.com/alpinejs/alpine/blob/master/README.md>https://github.com/alpinejs/alpine/blob/master/README.md</a></li><li><a href=https://github.com/alpinejs/alpine>https://github.com/alpinejs/alpine</a></li><li><a href=https://blog.logrocket.com/getting-started-with-alpine-js/>https://blog.logrocket.com/getting-started-with-alpine-js/</a></li><li><a href=https://medium.com/@wearethreebears/a-comparison-of-a-simple-app-in-vue-js-and-alpine-js-2a8c57f8b0e3>https://medium.com/@wearethreebears/a-comparison-of-a-simple-app-in-vue-js-and-alpine-js-2a8c57f8b0e3</a></li></ul></div><footer class=post-footer><div class=applause-button-container><applause-button url=https://dolsup.work/tech-blog/introduce-alpinejs/ style="width: 3em; height: 3em; margin: 0 auto"></div><div id=comments-container><script src=https://utteranc.es/client.js data-repo=dolsup/dolsup.github.io data-issue-term=title label=utterance data-theme=github-light crossorigin=anonymous async></script></div></footer></article></main><footer class=footer><span>&copy; 2020 돌과 숲</span>
+<span>&#183;</span>
+<a href=https://github.com/dolsup class=link>GitHub</a></footer></body></html>
