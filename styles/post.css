@@ -3,6 +3,10 @@
     color: #333;
 }
 
+.post-content {
+    word-break: keep-all;
+}
+
 .post-content figcaption {
     color: #777;
     font-size: 0.9em;
