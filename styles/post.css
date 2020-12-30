@@ -5,9 +5,15 @@
 
 .post-content {
     word-break: keep-all;
+    overflow-wrap: break-all;
 }
 
 .post-content figcaption {
     color: #777;
+    font-size: 0.9em;
+}
+
+.post-content pre code {
+    padding: 0;
     font-size: 0.9em;
 }
